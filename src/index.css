@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.profile {
+  @apply rounded-full h-11 w-11 object-cover;
+}
+
+.chevronicon {
+  @apply h-5 text-gray-400 cursor-pointer;
+}
+
+.fronticon {
+  @apply size-10 text-slate-500 fill-slate-600;
+}
+.navlist {
+  @apply h-9 w-9 p-2 bg-gray-100 rounded-full;
+}
+.hovereffect {
+  @apply transition transform duration-150 ease-in-out;
+}
+.box {
+  @apply shadow-lg  border bg-white  border-slate-200;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.starorange {
+  @apply h-5 w-5 fill-yellow-500 text-yellow-300 font-normal;
+}
+.stargray {
+  @apply h-5 w-5 fill-gray-300 text-gray-300;
+}
+.inputbox {
+  @apply p-2 border border-gray-200 bg-white shadow-sm hover:border-slate-300 outline-none rounded-md placeholder:text-gray-500 w-full;
+}
+.profile-name {
+  @apply flex space-x-2 items-center cursor-pointer p-3;
+}
+.menulist {
+  @apply flex text-slate-500 items-center gap-x-2  font-medium;
+}
+.icon {
+  @apply h-4 w-4 text-slate-400;
+}
+.btn {
+  @apply px-3 py-2 rounded-md text-center border hover:border-slate-300 cursor-pointer border-gray-200 bg-white font-medium;
+}
+.btnform {
+  @apply px-3 py-2 rounded-md  border hover:border-slate-300  border-gray-200 bg-white;
+}
+
+.optionmenu {
+  @apply bg-white rounded-2xl px-3 py-1 font-medium text-sm text-gray-500  shadow-sm hover:border-gray-300 border text-center;
+}
+.footerbtn {
+  @apply px-3 py-2  text-center border border-gray-200 bg-white font-medium;
+}
+.iconhover {
+  @apply hover:text-indigo-500 hover:fill-indigo-500 cursor-pointer;
+}
+
+.blueicon {
+  @apply h-6 w-6 text-indigo-500;
+}
+.iconflex {
+  @apply flex items-center gap-x-1;
+}
+
+.profilebox {
+  @apply h-8 w-8 rounded-full object-cover;
+}
+.boxheading {
+  @apply text-black font-semibold;
+}
+.iconbox {
+  @apply h-7 w-7 p-1 rounded-md bg-white border hover:border-slate-300;
+}
+.calendarbtn {
+  @apply p-1 flex items-center bg-white border shadow-sm rounded-md size-fit space-x-2;
+}
+.bluebtn {
+  @apply px-3 py-2 text-nowrap rounded-md shadow-sm bg-indigo-500 hover:bg-indigo-600 text-white font-medium;
+}
+.tooltipmsg {
+  @apply bg-white p-2 rounded shadow-md text-slate-500 text-wrap  text-xs border;
+}
+.tooltipicon {
+  @apply text-white cursor-pointer fill-slate-400 h-5 w-5;
+}
+.imgflex {
+  @apply flex items-center gap-x-2;
+}
